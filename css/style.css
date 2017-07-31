@@ -1,0 +1,63 @@
+/*not lost on text overlay anymore*/
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Unna');
+
+body  {
+     background-color: #eee8aa;
+     color: #2f4f4f;
+     /*font-family: 'Cormorant Garamond', serif;*/
+     font-family: 'Unna', serif;
+}
+#mutt  {
+     position: relative;
+     left: 0px;
+     top: 0px;
+     z-index: -1;
+}   
+/*must get inline block to work here*/  
+#navbar  {
+     list-style-type: none; 
+}
+.navitems  {
+     display: inline-block;
+}
+#weed  {
+     position: relative;
+     left: 0px;
+     top: 0px;
+     z-index: -1;
+}
+/*write contrasting color inside this overlay*/
+#when  {
+     color: #dcdcdc;
+     z-index: 0;
+}
+#puggle  {
+     color: #dcdcdc;
+     z-index: 1;
+}
+#shower  {
+     position: relative;
+     left: 0px;
+     top: 0px;
+     z-index: -1;
+}
+#kitty  {
+     position: relative;
+     left: 0px;
+     top: 0px;
+     z-index: -1;
+}
+.img-container  {
+     position: relative;
+}
+.img-text  {
+     position: absolute;
+     bottom: 0;
+}
+.img-text h1, .img-text h2, .img-text h3 {
+     margin: 5px;
+}
+.img-toptext  {/*set this overlay to top left*/
+     position: absolute;
+     top: 0;
+}
